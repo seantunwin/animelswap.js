@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(220, 220, 190);
+}
+
+button {
+  width: 3.5em;
+  margin: 2em;
+  padding: 3px;
+  background: rgb(230, 230, 210);
+  font-size: .8em;
+  letter-spacing: .04em;
+  color: rgba(24, 45, 88, .4);
+  border-radius: 3px;
+  border: 1px solid rgba(154, 145, 188, .8);
+  text-shadow: 0 1px 0 rgba(134, 145, 188, .6);
+  box-shadow: 1px 2px 0 rgba(124, 145, 168, .8);
+}
+
+button:active {
+  box-shadow: -1px -1px 0 rgba(124, 145, 168, .8);
+  transform: scale(.925);
+}
+
+.hldr {
+  display: flex;
+  flex-flow: row;
+  flex-direction: row;
+  margin-left: 3em;
+  max-width: auto;
+  max-height: auto;
+}
+
+.item {
+  position: relative;
+  display: inline;
+  margin: 0 2px;
+  width: 8.5em;
+  max-width: 8.5em;
+  box-sizing: border-box;
+  padding: .35em 2.2em;
+  color: rgb(175, 130, 120);
+  background-color: rgba(200, 176, 215, .2);
+  border-radius: 4px;
+  border: 1px solid rgba(65, 122, 170, .2);
+}

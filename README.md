@@ -1,9 +1,10 @@
-**Animelswap.js**
+#Animelswap.js
 
 Swap two HTML elements within the same container with some animated visuals.
 
-**How to use**
+A little experiment for an idea I had one day.
 
-* Add the elements to be swapped to <code>el1</code> and <code>el2</code>.
 
-* <code>dir</code> can be "top" or "left" depending upon layout.
+### Licence
+
+Copyright (c) 2014 [@seantunwin](https://twitter.com/seantunwin) Licensed under the [WTFPL](http://www.wtfpl.net/about/) license.
